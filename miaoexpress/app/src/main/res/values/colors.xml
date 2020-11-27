@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="toobar">#fffa00</color>
+    <color name="blue">#0000ff</color>
+    <color name="bgcolor">#aa0044</color>
+    <color name="white">#ffffff</color>
+    <color name="colorTextNormal">#999999</color>
+    <color name="colorTextPressed">#ff2222</color>
+    <color name="colorInCircle">#dd3344</color>
+</resources>

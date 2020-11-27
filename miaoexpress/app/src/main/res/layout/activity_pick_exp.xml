@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PickExpActivity"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/toobar"
+        app:title=" ">
+        <ImageView
+            android:id="@+id/goback"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:src="@mipmap/fanhui" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:gravity="center_horizontal"
+            android:text="我要取件"
+            android:textSize="16dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/fa1" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:id="@+id/qudajian">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:src="@mipmap/dingdan9" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="5dp"
+                android:text="我要取大件" />
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#f5f5f5" />
+        <LinearLayout
+            android:id="@+id/quxiaojian"
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="25dp"
+                android:src="@mipmap/dingdan10" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="5dp"
+                android:text="我要取小件" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="140dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:src="@mipmap/dingdan11" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="5dp"
+                android:text="国际寄件" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#f5f5f5" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="25dp"
+                android:src="@mipmap/dingdan12" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginTop="5dp"
+                android:text="公益寄件" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="13dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/dingdan13" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="5dp"
+                android:text="运费时效"
+                android:textColor="#222" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/dingdan14" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="5dp"
+                android:text="禁寄物品"
+                android:textColor="#222" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/dingdan15" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="快递电话"
+                android:textColor="#222" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

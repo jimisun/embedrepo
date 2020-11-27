@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:drawable="@mipmap/selector_lsdd" >
+        <color android:color="@color/colorTextNormal"/>
+    </item>
+    <item android:state_selected="true" android:drawable="@mipmap/selector_jsdd1" >
+        <color android:color="@color/colorTextPressed"/>
+    </item>
+
+</selector>
